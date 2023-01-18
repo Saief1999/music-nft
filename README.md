@@ -4,6 +4,9 @@
 
 This is a proof of Concept for a Music NFT application built on top of the **Gerli Test Net**
 
+
+**Link To the Demo Video and The Report** : [Drive Link](https://drive.google.com/drive/folders/1T1JGA5OATv3ECnchVylF5Rt6a2UVtqvn?usp=sharing) 
+
 ## Quickstart
 
 1. Start by adding the necessary environment variables for **Pinata** and **Alchemy**.
