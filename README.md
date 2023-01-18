@@ -4,6 +4,25 @@
 
 This is a proof of Concept for a Music NFT application built on top of the **Gerli Test Net**
 
+## Quickstart
+
+1. Start by adding the necessary environment variables for **Pinata** and **Alchemy**.
+
+2. install dependencies
+    ```bash
+    npm install
+    ```
+
+3. deploy smart contract
+    ```bash
+    npx hardhat run --network goerli scripts/deploy.js
+    ```
+
+4. Run the DApp 
+    ```bash
+    npm run start
+    ```
+
 ## Tech Stack
 
 **Solidity**
