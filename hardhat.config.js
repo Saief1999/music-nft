@@ -27,10 +27,7 @@ module.exports = {
     // },
     goerli: {
       url: process.env.REACT_APP_ALCHEMY_API_URL,
-      accounts: ["b65df1e314dce0d6042b770905f4dcd46da3d0549ef00498d86cc09fbe2ab0df",
-      "ca04faccb1a4811e10bc4fc46950fe5c9a4ab6df28e3b7f330e65ad52c462bbe",
-      "0aa0064422f16710379cab2a990ad2cc60d8f1626f5c4b40e4fa7e1e26ac950a"
-    ]
+      accounts: [process.env.REACT_APP_WALLET]
     }
   },
   solidity: {
