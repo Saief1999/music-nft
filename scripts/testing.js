@@ -7,7 +7,7 @@ const contract = await MyContract.attach(
 
 // Now you can call functions of the contract
 var vals = await contract.getListPrice();
-console.log(vals);
+// console.log(vals);
 
 /*const provider = new ethers.providers.Web3Provider(window.ethereum)
 const signer = provider.getSigner();

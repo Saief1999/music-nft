@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.nftpage .nft-title {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.nftpage .price {
+  font-style: bold;
+  font-size: 18px;
+}
+
+.nftpage .description {
+  font-size: 22px;
+
+}
+
+.nftpage .owner {
+  font-style: italic;
+}
+
+.nfttile {
+  position: relative;
+}
+
+.nfttile .price-tag {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: white;
+  font-style: bold;
+  border-radius: 5%;
+  background-color: #282c345a;
+  padding: 2px 5px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
